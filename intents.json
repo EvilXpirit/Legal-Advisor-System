@@ -1,0 +1,202 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help regarding my issue",
+        "please help me",
+        "could you please help me?",
+        "i need legal advise",
+        "i need legal help"
+      ],
+      "responses": [
+        "Don't worry, i got you... please tell me where you need help",
+        "please state your querry"
+      ]
+    },
+    {
+      "tag": "know",
+      "patterns": [
+        "can you tell me something?",
+        "i need to know something?",
+        "do you mind if a ask you something"
+      ],
+      "responses": [
+        "Sure. please ask",
+        "i am ready to help you"
+      ]
+    },
+    {
+      "tag": "section 378",
+      "patterns": [
+        "what is section 378",
+        "section 378 of ipc",
+        "law for theft"
+      ],
+      "responses": [
+        "Section 378 of IPC is the law for theft. The offence of theft is punishable with imprisonment of either description which may extend to 3 years, with fine, or both according to the Indian Penal Code. The offence of theft, though cognizable and non-bailable, is compoundable (where the accused and the victim can enter into a compromise to drop charges against the accused).",
+        "According to Section 378 of the Indian Penal Code, whoever, intending to take dishonestly any moveable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "housing",
+      "patterns": [
+        "housing",
+        "help me out with housing issue"
+      ],
+      "responses":[
+        "Housing law or the law relating to building construction is not codified in our country. It has developed through case law i.e. the law is based on the decisions of the various redressal agencies and higher courts including the Supreme Court."
+      ]
+    },
+    {
+      "tag": "tax",
+      "patterns": [
+        "help me out with taxes",
+        "taxes",
+        "law related to tax",
+        "tax payment"
+    ],
+    "responses":[
+      "Freedom as to payment of taxes for promotion of any particular religion No person shall be compelled to pay any taxes, the proceeds of which are specifically appropriated in payment of expenses for the promotion or maintenance of any particular religion or religions denomination."
+    ]
+    },
+    {
+      "tag": "equality",
+      "patterns": [
+        "Tell me about equality!",
+        "law about equality",
+        "equality right?"
+      ],
+      "responses": [
+        "Equality before law The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth."
+      ]
+    },
+    {
+      "tag": "real estate",
+      "patterns": [
+        "Tell me about real estate!",
+        "real estate",
+        "what is real estate",
+        "i want to know about real estate",
+        "estate"
+      ],
+      "responses": [
+        "Real estate in India is governed by multiple laws that vary across States. Some vital laws impacting the country's realty landscape include the Real Estate (Regulation and Development) Act, 2016 (RERA), the Transfer of Property Act, 1882, and the Registration Act, 1908.."
+      ]
+    },
+    {
+      "tag": "petition",
+      "patterns": [
+        "Tell me about petition!",
+        "petition",
+        "what is petition",
+        "petition law",
+        "estate"
+      ],
+      "responses": [
+        "petition is a written instrument directed to some individual, official, legislative body, or court in order to redress a grievance or to request the granting of a favour. Petitions are also used to collect signatures to enable a candidate to get on a ballot or to put an issue before the electorate.."
+      ]
+    },
+    {
+      "tag": "transaction fraud",
+      "patterns": [
+        "Tell me about transaction fraud!",
+        "transaction fraud",
+        "what is transaction fraud",
+        "i want to know about transaction fraud",
+        "i need help regarding transaction fraud"
+      ],
+      "responses": [
+        "Transaction fraud is a risk that any business may face if they accept online payments. Fraudsters use stolen credit card numbers to make purchases online, which can hurt your company in the long run. When the legitimate cardholder notices the payment, they will initiate a chargeback request (refund), which is expensive to process."
+      ]
+    },
+    {
+      "tag": "women",
+      "patterns": [
+        "Tell me about women safety!",
+        "women security",
+        "laws for women",
+        "women laws",
+        "girls safety",
+        "laws for girl",
+        "woman protection"
+      ],
+      "responses": [
+        "safety and security of women and children in the country is utmost  priority  for  the  Government. The Ministry of Women and Child Development has been administering various special laws relating to women such as the Protection of Women from Domestic Violence Act, 2005; Dowry Prohibition Act, 1961; Indecent Representation of Women (Prohibition) Act, 1986; the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 and the Prohibition of Child Marriage Act, 2006. The said Ministry is also administering the Juvenile Justice (care and protection of children) Act, 2015, the Commissions for Protection of Child Rights Act, 2005 and the Protection of Children from Sexual Offences Act, 2012."
+      ]
+    },
+    {
+      "tag": "child labour",
+      "patterns": [
+        "Tell me about child labour",
+        "child safety",
+        "law on child safety",
+        "child",
+        "children"
+      ],
+      "responses": [
+        "Employment of children below 14 and 15 years in certain prohibited employments have been prohibited by various Acts but there is no procedure laid down in any law for deciding in which employments, occupations or processes the employment of children should be banned. There is also no law to regulate the working conditions of children in most of the employments where they are not prohibited from working and are working under exploitative conditions. Accordingly it was decided to enact a comprehensive law on the subject. To achieve this objective the Child Labour (Prohibition and Regulation) Bill was introduced in the Parliament.",
+        "The Child Labour (Prohibition and Regulation) Bill, 1986 having been passed by both the Houses of Parliament received the assent of the President on 23rd December, 1986. It came on the Statute Book as THE CHILD LABOUR (PROHIBITION AND REGULATION) ACT, 1986 (61 of 1986)."
+      ]
+    },
+    {
+      "tag": "guns",
+      "patterns": [
+        "fire arms",
+        "guns act",
+        "weapons act",
+        "guns",
+        "rifle",
+        "Licence for acquisition and possession of firearms and ammunition",
+        "ammunition"
+      ],
+      "responses": [
+        "No person shall acquire, have in his possession, or carry any firearm or ammunition unless he holds in this behalf a licence issued in accordance with the provisions of this Act and the rules made thereunder: Provided that a person may, without himself holding a licence, carry any firearms or ammunition in the presence, or under the written authority, of the holder of the licence for repair or for renewal of the licence or for use by such holder."
+      ]
+    }
+    
+  ]
+}
